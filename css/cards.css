@@ -1,0 +1,23 @@
+/* The grid: Three equal columns that floats next to each other */
+.cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #fff;
+  color: #202340;
+  max-width: 273px;
+  cursor: pointer;
+}
+
+.card-title {
+  color: #202340;
+}
+
+.cards-img {
+  width: 100%;
+}
+.cards p {
+  font-size: 0.75rem;
+  color: #202340;
+}
