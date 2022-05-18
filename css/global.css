@@ -9,8 +9,27 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-.main {
-  /* max-width: 400px; */
+.container {
+  width: 1vw;
+  height: 1vh;
   display: grid;
-  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 320px;
+  grid-template-areas:
+    "header"
+    "cards"
+    "footer";
+}
+
+.container > header {
+  grid-area: header;
+}
+
+.container > card {
+  grid-area: cards;
+}
+
+.container > footer {
+  grid-area: footer;
 }
