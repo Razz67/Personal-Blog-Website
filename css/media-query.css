@@ -1,0 +1,18 @@
+/* Small Devices */
+@media screen and (max-width: 450px) {
+  .header {
+      /* max-width: 451px; */
+      margin-left: -135px;
+  }
+
+  .container {
+      width: 450px;
+      grid-template-columns: auto;
+      grid-gap: 10px;
+  }
+
+  .header {
+      grid-column: 1;
+      grid-row: 1;
+  }
+}
