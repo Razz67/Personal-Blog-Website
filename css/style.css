@@ -2,6 +2,7 @@
 @import url(media-query.css);
 @import url(flex.css);
 @import url(grid.css);
+@import url(html-page.css);
 
 * {
   margin: 0;
@@ -13,7 +14,22 @@ body {
   background: #363659;
 }
 
-/* Custom Classes */
+.card-title {
+  font-size: 2.5em;
+}
+
+.header,
+p {
+  margin-bottom: 30px;
+}
+
+.date {
+  display: flex;
+  color: rgba(249, 249, 250, 0.3);
+  flex-direction: row;
+  justify-content: left;
+  margin-bottom: 0.5em;
+}
 
 /* 20px bottom margin */
 .mb-20 {
@@ -28,7 +44,8 @@ img {
 
 .cards {
   padding: 15px;
-  /* border: 1px solid #f9f9fa; */
+  background-color: #258;
+  box-shadow: 5px 5px 10px;
 }
 
 .card-link i,
