@@ -1,5 +1,7 @@
 @import url(footer.css);
 @import url(media-query.css);
+@import url(flex.css);
+@import url(grid.css);
 
 * {
   margin: 0;
@@ -11,61 +13,18 @@ body {
   background: #363659;
 }
 
+/* Custom Classes */
+
+/* 20px bottom margin */
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+
 /* Make images responsive */
 img {
   display: block;
   max-width: 100%;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-/* Grid */
-.container {
-  display: grid;
-  grid-template-columns: repeat(0, 1fr);
-  gap: 15px;
-  background-color: #363659;
-  color: white;
-  padding: 15px;
-}
-
-/* .header {
-  grid-column: 1 / 2;
-}
-.card-1 {
-  grid-column: 1 / 2;
-  grid-row: 2;
-}
-.card-2 {
-  grid-column: 1 / 2;
-  grid-row: 3;
-}
-
-.card-3 {
-  grid-column: 1 / 2;
-  grid-row: 4;
-}
-
-.card-4 {
-  grid-column: 1 / 2;
-  grid-row: 5;
-}
-
-.footer {
-  grid-column: 1 / 2;
-  grid-row: 6;
-}
- */
-.flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .cards {
@@ -82,9 +41,3 @@ a {
   text-align: center;
 }
 
-/* Custom Classes */
-
-/* 20px bottom margin */
-.mb-20 {
-  margin-bottom: 20px;
-}

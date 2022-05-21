@@ -1,29 +1,11 @@
-@media screen and (min-width: 600px) and (max-width: 900px) {
+/* Tablet size 600px to 900px*/
+@media screen and (min-width: 37.5em) {
   .container {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .header {
     grid-column: 1 / 3;
-  }
-  .card-1 {
-    grid-column: 1 / 2;
-    grid-row: 2;
-  }
-  .card-2 {
-    grid-column: 2 / 2;
-    grid-row: 2;
-  }
-
-  .card-3 {
-    grid-column: 1 / 2;
-    grid-row: 3;
-  }
-
-  .card-4 {
-    grid-column: 2 / 2;
-    grid-row: 3;
   }
 
   .footer {
@@ -32,32 +14,14 @@
   }
 }
 
-@media screen and (min-width: 901px) and (max-width: 1440px) {
+/* Large screen sizes 901px and up*/
+@media screen and (min-width: 56.3em) {
   .container {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .header {
     grid-column: 1 / 5;
-  }
-  .card-1 {
-    grid-column: 1 / 2;
-    grid-row: 2;
-  }
-  .card-2 {
-    grid-column: 2 / 3;
-    grid-row: 2;
-  }
-
-  .card-3 {
-    grid-column: 3 / 4;
-    grid-row: 2;
-  }
-
-  .card-4 {
-    grid-column: 4 / 5;
-    grid-row: 2;
   }
 
   .footer {
