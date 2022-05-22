@@ -1,0 +1,43 @@
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.nav-list a {
+  display: block;
+  color: #666;
+  text-align: center;
+  text-decoration: none;
+  padding: 1em 0.8em;
+}
+
+.nav-list a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.nav-list a.active {
+  color: #fff;
+  background-color: #04aa6d;
+}
+/* future add on functionality
+.hamburger {
+  order: 1;
+  font-size: 1.25em;
+} */

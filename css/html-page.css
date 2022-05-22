@@ -1,9 +1,27 @@
-.back-btn {
-      background-color: #202340;
+@import url(navigation.css);
+@import url(flex.css);
+@import url(footer.css);
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.back-btn a {
-  text-decoration: none;
-  
+body {
+  background: #363659;
+}
+
+.main-content {
+  display: grid;
+  gap: 1rem;
+  background-color: #363659;
+  color: white;
+  padding: 15px;
+}
+
+.header,
+p {
+  color: white;
+  margin-bottom: 1.5em;
 }
