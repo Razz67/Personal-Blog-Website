@@ -1,0 +1,10 @@
+.social-links .fa:hover {
+    color: #ff1ad9;
+}
+
+.social-links .fa {
+  padding: 1.2em;
+  font-size: 2em;
+  text-decoration: none;
+  margin: 0.31em 0.5em;
+}

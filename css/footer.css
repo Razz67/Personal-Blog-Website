@@ -1,6 +1,11 @@
-.footer {
+.footer p {
   text-align: center;
   font-family: "Trebuchet MS", sans-serif;
   font-size: x-small;
+  color: #0fff50;
+}
+
+.footer i,
+a {
   color: #0fff50;
 }

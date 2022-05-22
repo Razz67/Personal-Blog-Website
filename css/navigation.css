@@ -25,11 +25,12 @@
   color: #666;
   text-align: center;
   text-decoration: none;
-  padding: 1em 0.8em;
+  padding: 1em 1.9em;
 }
 
 .nav-list a:hover:not(.active) {
-  background-color: #ddd;
+  background-color: #ff1ad9;
+  color: #fff;
 }
 
 .nav-list a.active {

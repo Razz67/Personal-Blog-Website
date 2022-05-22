@@ -4,6 +4,7 @@
 @import url(grid.css);
 @import url(html-page.css);
 @import url(navigation.css);
+@import url(social-media.css);
 
 
 * {
@@ -53,6 +54,10 @@ img {
 .card-link i,
 a {
   color: #0fff50;
+}
+
+.card-link a:hover {
+  color: #ff1ad9;
 }
 
 .footer {

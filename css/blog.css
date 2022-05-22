@@ -1,5 +1,6 @@
 @import url(navigation.css);
 @import url(flex.css);
+@import url(social-media.css);
 @import url(footer.css);
 
 * {
@@ -16,10 +17,21 @@ body {
   display: grid;
   justify-content: center;
   align-items: center;
-  gap: 1.2rem;
+  gap: 1.2em;
   background-color: #363659;
   color: white;
   padding: 15px;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
 }
 
 .header,
@@ -28,9 +40,19 @@ p {
   margin-bottom: 1.5em;
 }
 
+h3 {
+  padding: 1.3em;
+}
+
+.date {
+  color: #0fff50;
+}
+
 .about {
   background-color: rgba(249, 249, 250, 0.1);
   padding: 0.5em;
+  line-height: 1.4em;
+  margin-top: 1.7em;
 }
 
 .archives {
@@ -42,13 +64,11 @@ p {
 }
 
 .archives a {
-    color: #0fff50;
-
+  color: #0fff50;
 }
 
 .archives a:hover {
-    color: #ff1ad9;
-
+  color: #ff1ad9;
 }
 
 .archives {
@@ -60,13 +80,11 @@ p {
 }
 
 .archives a {
-    color: #0fff50;
-
+  color: #0fff50;
 }
 
 .archives a:hover {
-    color: #ff1ad9;
-
+  color: #ff1ad9;
 }
 
 .more {
@@ -78,17 +96,11 @@ p {
 }
 
 .more a {
-    color: #0fff50;
-
+  color: #0fff50;
 }
 
 .more a:hover {
-    color: #ff1ad9;
-
-}
-
-.more {
-  text-align: center;
+  color: #ff1ad9;
 }
 
 .more li {
@@ -96,17 +108,12 @@ p {
 }
 
 .more a {
-    color: #0fff50;
-
+  color: #0fff50;
 }
 
-.archives a:hover {
-    color: #ff1ad9;
-
+.more a:hover {
+  color: #ff1ad9;
 }
-
-
-
 
 /* Tablet size 600px to 900px*/
 @media screen and (min-width: 37.5em) {
