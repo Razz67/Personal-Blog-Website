@@ -25,7 +25,7 @@ body {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 
 h1,
@@ -115,7 +115,7 @@ h3 {
   color: #ff1ad9;
 }
 
-/* Tablet size 600px to 900px*/
+/* Tablet size 600px to 900px */
 @media screen and (min-width: 37.5em) {
   .main-content {
     grid-template-columns: repeat(2, 1fr);
@@ -148,7 +148,7 @@ h3 {
 }
 
 /* Large screen sizes 901px and up*/
-@media screen and (min-width: 56.3em) {
+ @media screen and (min-width: 56.3em) {
   .main-content {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -176,5 +176,5 @@ h3 {
   .footer {
     grid-column: 1 / 5;
     grid-row: 3;
-  }
+  } 
 }

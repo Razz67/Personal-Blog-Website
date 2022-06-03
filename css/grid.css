@@ -1,6 +1,8 @@
 /* Grid */
 .container {
   display: grid;
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
   background-color: #363659;
   color: white;
